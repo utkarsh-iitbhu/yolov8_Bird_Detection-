@@ -26,7 +26,7 @@ def main():
     flag=0
     st = 0
     res = [] 
-    while True and st<20:
+    while True:
         st += 1
         print("Iteration : ",st)
         if flag == len(url_list):
@@ -70,4 +70,4 @@ def main():
 if __name__ == '__main__':
     main()
     
-    # yolo task=detect mode=predict model=yolov8n.pt source=stream.txtpython -u "u:\yolov8\ultralytics-main\Time_spent.py"
+   
